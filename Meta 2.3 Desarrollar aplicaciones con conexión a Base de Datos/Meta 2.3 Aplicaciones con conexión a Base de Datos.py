@@ -399,19 +399,19 @@ if __name__ == "__main__":
             if texto:
                 buscar_evento(texto)
             else:
-                print("[ERROR] Debes escribir un texto.")
+                print("Debes escribir un texto")
         elif opcion == "3":
-            n = leer_entero("Número de asistentes a registrar: ")
+            n = leer_entero("Número de asistentes a registrar:")
             if n is not None:
                 eventos_con_disponibilidad(n)
         elif opcion == "4":
             id_evento = leer_entero("ID del evento: ")
-            n = leer_entero("Número de asistentes a registrar: ")
+            n = leer_entero("Número de asistentes a registrar:")
             if id_evento is not None and n is not None:
                 registrar_asistentes(id_evento, n)
         elif opcion == "5":
             id_evento = leer_entero("ID del evento: ")
-            n = leer_entero("Número de registros a cancelar: ")
+            n = leer_entero("Número de registros a cancelar:")
             if id_evento is not None and n is not None:
                 cancelar_registros(id_evento, n)
         elif opcion == "6":
@@ -421,7 +421,7 @@ if __name__ == "__main__":
         elif opcion == "8":
             mostrar_eventos_proximos()
         elif opcion == "9":
-            print("\nSesion cerrada.")
+            print("\nHasta luego y bonito día")
             break
         else:
-            print("\nERROR Opción no válida. Elige un número del 1 al 9.")
+            print("\nError, seleccionaste un numero no mencionado")
