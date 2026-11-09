@@ -1,6 +1,11 @@
 #Flores Cisneros Adrian Alejandro
 # 951
 # Elaborado el 08/11/2026
+#Se crea un DataFrame llamado ventas con las ventas mensuales de tres productos (A, B y C) durante enero,
+# febrero y marzo, con datos aleatorios entre 100 y 1000. Se realizan funciones para seleccionar datos
+# usando loc (por nombre de índice y columna) e iloc (por posición), y una función para cambiar las ventas
+# de un producto en un mes específico.
+
 
 import pandas as pd
 import numpy as np
